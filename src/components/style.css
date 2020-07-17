@@ -7,3 +7,101 @@ font-weight: bold;
 font-family: 'Courier New', Courier, monospace;
 font-style: oblique;
 }
+/* Products */
+
+.card{
+    margin-top: 10px;
+}
+.card .btn{
+ margin-top: 5px;
+}
+.card .oldprice{
+text-decoration: line-through;
+color: silver;
+}
+.card Link,button:hover
+{
+    opacity: 1;
+    border: 1px solid;
+    margin: 5px;
+}
+
+/* Addproduct */
+
+.AddProduct input{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+}
+.AddProduct button{
+    width: 100px;
+
+}
+/* Cart */
+
+.cart .sum{
+    font-weight: bold;
+    font: 1em sans-serif;
+    font-style: oblique;
+    color: red;
+}
+.button-checkCart button{
+    margin-left: 10px;
+}
+/* payment and cart button */
+.button-checkCart button:hover{
+background-color: snow;
+color: black;
+}
+/* Payment */
+.fill button:hover{
+    background-color: snow;
+color: black;
+}
+.fill{
+    text-align: left;
+    border: 1px solid #eee;
+}
+
+.fill h2{
+    text-align: center;
+    font: outline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.fill span{
+    color: red;
+}
+/* page */
+#page-numbers {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #page-numbers > li {
+    color: rgb(62, 140, 204);
+    user-select: none;
+    cursor: pointer;
+    margin: 0 3px;
+    padding: 0 5px;
+    border: 1px solid rgb(62, 140, 204);
+    text-align: center;
+    border-radius: 2px;
+  }
+  
+  #page-numbers > li:not(.active):hover {
+    background: rgb(62, 140, 204);
+    color: white;
+  }
+  
+  #page-numbers > li.active {
+    border-color: grey;
+    color: white;
+    background: grey;
+    cursor: default;
+  }
+  
