@@ -38,17 +38,12 @@ class App extends Component{
       <Nav.Link href="/home"><FcLibrary />Home</Nav.Link>
       <Nav.Link href="#pricing"><FcAssistant/>About us</Nav.Link>
       <NavDropdown title="Products" id="basic-nav-dropdown"><FcApproval/>
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+        <NavDropdown.Item href="#">Dress1</NavDropdown.Item>
+        <NavDropdown.Item href="#">Dress2</NavDropdown.Item>
+        <NavDropdown.Item href="#">Dress3</NavDropdown.Item>
       </NavDropdown>
       <Nav.Link href="/create">AddProduct</Nav.Link>
-      {/* <Nav.Link onClick={this.onListClicked}> UpdateProduct</Nav.Link> */}
-
       <Nav.Link href="/cart">Cart</Nav.Link>
-
     </Nav>
     <Form inline>
       <Form.Control type="text" placeholder="Search" className="mr-sm-2" />

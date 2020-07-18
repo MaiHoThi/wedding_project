@@ -109,8 +109,7 @@ class AddProduct extends Component {
         }
         
     }
-   
-  
+     
     render() {
         const {formValue}=this.state;
         return (
@@ -138,7 +137,6 @@ class AddProduct extends Component {
                </p> 
             </form>
             <h3> List Product</h3>
-
                 <div class="cart">
                     <table class="table table-hover">
                         <thead>
@@ -153,15 +151,10 @@ class AddProduct extends Component {
                                 <th> detail </th>
                                 <th> Update </th>
                                 <th> Delete </th>
-
                             </tr>
                         </thead>
-                      
                              {this.state.product.map((item, index)=>(
                              <tbody>
-                       
-
-                   
                      <tr>
                      <td>{item.id}</td>
 

@@ -4,7 +4,6 @@ import CartItem from './CartItem';
 import { Container } from 'reactstrap';
 import { Button } from 'react-bootstrap';
 import Payment from './Payment';
-// import { Route } from "react-router";
 class Cart extends Component {
 
     constructor(props) {
@@ -44,9 +43,7 @@ class Cart extends Component {
     }
     
     render() {
-
         return (
-
             <Container>
                  {this.state.menu==="payment" ?<Payment/>:null}
                 <h3> Your Cart</h3>
@@ -69,14 +66,11 @@ class Cart extends Component {
                             />)}
                     </table>
                     <tr class="sum" >Sum:{this.Total()}</tr>
-
                 </div>
                 <div class="button-checkCart">
                 <Button variant="secondary" >CONTINUE SHOPPING</Button>
                 <Button variant="secondary" onClick={this.onPaymentClicked}>CHECKOUT NOW</Button>
-
-                </div>
-               
+                </div>              
             </Container>
         );
 
